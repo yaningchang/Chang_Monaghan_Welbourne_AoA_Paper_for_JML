@@ -12,7 +12,7 @@ Simulation 2 folder contains the files for training and testing the Random AoA m
 Model:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Executable files:
+Executable files (for running in linux or mac terminal)
 random_aoa_reading: training the Random AoA reading model
 random_aoa_pretraining: pertaining the Random AoA reading model (Oral language training)
 random_aoa_reading_evaluator: evaluating the Random model’s reading performance
