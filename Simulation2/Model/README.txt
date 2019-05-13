@@ -6,7 +6,8 @@
 # -iteration: training times
 # -trained_weight: load the trained weight to the model
 #######################################################################################################
-To train the model, enter the following command in the unix-like terminal with Mikenet installed:
+To train the model, enter the following command in a unix or mac terminal:
+Note: We have provided two different sets of executiable files for linux and mac. Please rename the files before running the following commands. e.g., for the linux terminal: rename random_aoa_pretraining_linux to random_aoa_pretraining
 
 e.g. pretraining the Ramdom AoA reading model 
 ./random_aoa_pretraining -seed 1 -epsilon 0.05 -iteration 600000
@@ -25,7 +26,8 @@ e.g. training the Random AoA reading model and load the pretrained weight
 # -weights: trained weight
 # >:  output file 
 #######################################################################################################
-To test the model, enter the following command in the unix-like terminal with Mikenet installed:
+To test the model, enter the following command in a unix or mac terminal:
+Note: We have provided two different sets of executiable files for linux and mac. Please rename the files before running the following commands. e.g., for the linux terminal: rename random_aoa_pretraining_evaluator_linux to random_aoa_pretraining_evaluator
 
 e.g. for hearing (PS)
 ./random_aoa_pretraining_evaluator -key 6kdict -patterns ps_randcon.pat -semantic -weights ../Weights/Oral/RandomAoA_PS_Weight_v1 > ps_1.txt
