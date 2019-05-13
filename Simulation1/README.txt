@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Please refer to Chang, Monaghan and Welbourne (2019) paper for the model architecture and training/testing procedures. The simulations are run using the Mikenet simulator
+Please refer to Chang, Monaghan and Welbourne (2019) paper for the model architecture and training/testing procedures. The simulations are developed using the Mikenet simulator
 (http://www.cnbc.cmu.edu/~mharm/research/tools/mikenet/).
 
 Created by Ya-Ning Chang, 10 May 2019
@@ -17,7 +17,7 @@ Model (incl. examples):
 README: Examples are provided, including commands and parameters for training and testing the AoA model
 
 
-Executable files:
+Executable files (for running in linux or mac terminal):
 aoa_reading: training the AoA reading model
 aoa_pretraining: pertaining the AoA reading model (Oral language training)
 aoa_reading_evaluator: evaluating the model’s reading performance
